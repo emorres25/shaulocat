@@ -20,5 +20,5 @@ def yo():
     latitude = splitted[0]
     longitude = splitted[1]
     
-    requests.post(YO_API, data={'api_token': api_key, 'username': username, 'text' : 'ssup'})
+    requests.post(YO_API, data={'api_token': '3u3XKTW9CvPJxUj90w94ZbZ1QoE0LR', 'username': username, 'text' : 'ssup'})
     return 'OK'
