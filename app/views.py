@@ -21,5 +21,5 @@ def yo():
     latitude = splitted[0]
     longitude = splitted[1]
     print username
-    requests.post("http://api.justyo.co/yo/", data={'api_token': yo_key, 'username': 'EMORRES25', 'text': "shaulocat was recently used."})
+    requests.post("http://api.justyo.co/yo/", data={'api_token': 'a9e75c9f-a085-4c5f-be02-4faa915eac29', 'username': 'EMORRES25', 'text': "shaulocat was recently used."})
     return 'OK'
