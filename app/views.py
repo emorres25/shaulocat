@@ -12,6 +12,7 @@ def send_yo(username, link):
 
 def yo():
     """Handle callback request"""
+    print "THISTHISHITIHSITHIHSIHIHTIHISHT"
     username = request.args.get('username')
     location = request.args.get('location')
     splitted = location.split(';')
