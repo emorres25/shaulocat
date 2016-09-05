@@ -20,6 +20,7 @@ def yo():
     # Parse latitude and longitude from request params
     latitude = splitted[0]
     longitude = splitted[1]
+    print username
     requests.post("http://api.justyo.co/yo/", 
               data={'api_token': api_token, 'username': 'EMORRES25'})
     return 'OK'
