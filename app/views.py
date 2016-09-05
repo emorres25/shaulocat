@@ -12,13 +12,13 @@ def send_yo(username, link):
 
 def yo():
     """Handle callback request"""
-    print "THISTHISHITIHSITHIHSIHIHTIHISHT"
+
     username = request.args.get('username')
     location = request.args.get('location')
     splitted = location.split(';')
     # Parse latitude and longitude from request params
     latitude = splitted[0]
     longitude = splitted[1]
-    print username
-    send_yo(username, 'www.google.com')
+    
+    requests.post(YO_API, data={'api_token': api_key, 'username': username, 'text' : 'ssup'})
     return 'OK'
