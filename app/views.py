@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import requests
-
+import sys
 
 # Create your views here.
 YO_API = "https://api.justyo.co/yo/"
